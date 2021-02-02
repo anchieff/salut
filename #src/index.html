@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Управляющая компания Салют</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="header__logo">
+      <img src="img/logo.png" alt="logo" class="header__logo">
+    </a>
+    
+    <div class="container">
+      <div class="header__contacts">
+        <div class="header__phone">
+          <div class="header__icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div class="phone__content">
+            <a href="tel:+78462053601" class="phone">+7 (846) 205-36-01</a>
+            <a href="mailto:uksalyut@yandex.ru" class="">uksalyut@yandex.ru</a>
+          </div>
+        </div>
+        <div class="header__adress">
+          <div class="header__icon">
+            <i class="fas fa-home"></i>
+          </div>
+          <div class="adress__content">
+            443028, Самарская обл, г. Самара, п. Мехзавод, кв-л. 11-й, д. 1
+          </div>
+        </div>
+        <div class="header__schedule">
+          <div class="header__icon">
+            <i class="far fa-clock"></i>
+          </div>
+          <div class="schedule__content">
+            Пн-Пт: 8.00-18.00, Сб: 8.00-15.45 Вс: выходной
+          </div>
+        </div>
+        <div class="header__social">
+          <a href="#" class="social__icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#"  class="social__icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#"  class="social__icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#"  class="social__icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav-items nav">
+          <li class="nav__item">
+            <a href="#">о компании</a>
+            <ul class="submenu">
+              <li><a href="#" class="submenu__item">О нас</a></li>
+              <li><a href="#" class="submenu__item">Сотрудники</a></li>
+              <li>
+                <a href="#" class="submenu__item">
+                  Документы
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+                <ul class="sub-submenu">
+                  <li><a href="#" class="sub-submenu__item">Уставные документы</a></li>
+                  <li><a href="#" class="sub-submenu__item">Финансовая отчетность</a></li>
+                  <li><a href="#" class="sub-submenu__item">Свидетельства и допуски</a></li>
+                  <li><a href="#" class="sub-submenu__item">Договор управления с МКД</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="submenu__item">Вакансии</a></li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a href="#">услуги</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">тарифы</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">отчеты по домам</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">план работ</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">«аварийка»</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">документы</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">новости</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">контакты</a>
+          </li>
+        </ul>
+        <div class="header__search">
+          <i class="fas fa-search"></i>
+        </div>
+        
+      </nav>
+    </div>
+    <button class="header__callback"><i class="fas fa-phone-alt"></i>обратный звонок</button>
+  </header>
+
+  <div class="overlay">
+    <div class="modal" id="request">
+      <div class="modal__close">
+      </div>
+      <div class="modal__title">заказать звонок</div>
+      <div class="modal__descr">С нами легко связаться! Закажите звнок и мы перезвоним Вам в ближайшее время!</div>
+      <form class="feed__form" id="form" action="#">
+          <input class="form__item" name="name" type="text" placeholder="Ваше имя" required>
+          <input class="form__item" name="email" type="text" placeholder="E-mail" required>
+        <button type="submit" class="form__button">заказать звонок</button>
+      </form>
+    </div> 
+  </div>
+  
+  <script src="https://kit.fontawesome.com/ec5b7ba5be.js" crossorigin="anonymous"></script>
+  <script src="js/script.min.js"></script>
+</body>
+</html>

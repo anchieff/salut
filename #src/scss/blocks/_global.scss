@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'arial', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
